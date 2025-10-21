@@ -2,7 +2,7 @@
 #hoge = "huga"
 
 try:
-    print(hoge)
+    print(hoge) # type: ignore
 except NameError:
     print("「hoge」は変数として存在しません")
 else:
