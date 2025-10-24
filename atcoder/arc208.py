@@ -49,6 +49,7 @@ for i2 in range(len(n)):
                 if xor_lst(a2)==kijun[i2]:
                     #print(" xor突破")
                     xor_is =True
+                    break
 
         if xor_is :
             break
@@ -58,3 +59,7 @@ for i2 in range(len(n)):
     else:
         print("Bob")
 
+"""
+セットの順番無視やメモ化で同じ組み合わせの計算を素早くできるはず
+
+"""
