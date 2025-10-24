@@ -35,3 +35,8 @@ for lst2 in lst1 :#一つ一つの順列を検証
 
 output=len(lst3)
 print(output%998244353)
+
+"""
+ソートしてリストの順番を整えると早くなりそう
+
+"""
