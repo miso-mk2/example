@@ -2,7 +2,107 @@
 
 body{
     color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing : 5px;
+    margin: 0;
+    min-width: 1024px;
+}
+main{
+    padding: 30px 0;
 }
 ol li{
-    color:red
+    color:red;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+ul a{
+    transition-duration: 1s;
+}
+ul a:link{
+    color :#000000;
+    text-decoration:none;
+    padding: 10px;
+}
+ul a:visited{
+    color: #000000;
+    padding: 10px;
+}
+ul a:hover{
+    color: #ffffffff;
+    padding: 10px;
+    background-color: #486b0b;
+    border-radius: 50%;
+}
+.test1 .test2{
+    color:aqua;
+}
+strong{
+    font-weight: normal;
+}
+p{
+    line-height: 2;
+}
+h1{
+    margin: 0;
+}
+h2{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    border-left: 30px solid #d7301d;
+    border-radius: 10px 0 0 10px;
+    padding-left: 10px;
+}
+header{
+    border-bottom: 5px dotted #d7301d;
+    padding: 20px 0;
+}
+.header_box, .main_box, .footer_box{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    text-align: right;
+    background-color: aquamarine;
+    color: #ffffffff;
+    border-radius: 50px;
+    padding: 30px 0;
+}
+div.haikei{
+    width: 800px;
+    margin: 0 auto;
+    min-width: 500px;
+}
+td,th{
+    border:1px solid #486b0b;
+    padding: 5px 30px;
+}
+th{
+    color:#486b0b;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.item{
+    width: 280px;
+    margin-bottom: 30px;
+}
+.item_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item img{
+    border-radius: 30%;
 }
