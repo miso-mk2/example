@@ -2,6 +2,7 @@
 # 変数[numRows]（１〜１００の整数）が入力される
 #「内部的に変数の高さのジグザグに並べ替えて」「それを横読み」して
 #順番がバラバラになった文字列を出力する
+#計算式に改善があるかもしれないが
 
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
